@@ -97,6 +97,8 @@ loadMovieData = (title = null) => {
 
 //Execute when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
+  loadMovieData();
+  
   document.querySelector('#previous-page').addEventListener('click', (e) => {
     if (page > 1) page--;
     loadMovieData();
