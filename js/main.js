@@ -5,6 +5,7 @@
  *  (including web sites) or distributed to other students.
  *
  *  Name: Vinh Nhan | Student ID: 171452212 | Date: Jun 2, 2023
+ *  Live site: https://main--friendly-boba-982613.netlify.app/ 
  *
  ********************************************************************************/
 
