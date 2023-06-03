@@ -1,3 +1,13 @@
+/*********************************************************************************
+ *  WEB422 – Assignment 2
+ *  I declare that this assignment is my own work in accordance with Seneca Academic Policy.
+ *  No part of this assignment has been copied manually or electronically from any other source
+ *  (including web sites) or distributed to other students.
+ *
+ *  Name: Vinh Nhan | Student ID: 171452212 | Date: Jun 2, 2023
+ *
+ ********************************************************************************/
+
 page = 1;
 perPage = 10;
 loadMovieData = (title = null) => {
@@ -98,7 +108,7 @@ loadMovieData = (title = null) => {
 //Execute when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
   loadMovieData();
-  
+
   document.querySelector('#previous-page').addEventListener('click', (e) => {
     if (page > 1) page--;
     loadMovieData();
